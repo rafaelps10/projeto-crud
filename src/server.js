@@ -15,7 +15,7 @@ app.use(express.urlencoded({ extended: true }))
 
 // rotas
 app.get('/', (req, res) => {
-    res, render('index', {
+    res.render('index', {
         title: 'Titulo Teste'
     })
 })
